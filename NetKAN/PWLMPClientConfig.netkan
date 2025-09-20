@@ -9,7 +9,6 @@ depends:
 supports:
   - name: ParallaxContinued
   - name: BetterTimeWarpCont
-
 install:
   - find: PWLMP_ClientConfig
     install_to: GameData
