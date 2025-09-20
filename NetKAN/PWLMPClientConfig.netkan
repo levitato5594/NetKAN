@@ -1,0 +1,15 @@
+identifier: PWLMPClientConfig
+name: Promised Worlds Luna Multiplayer Client Config
+$kref: '#/ckan/github/PromisedWorlds/PWLMP_ClientConfig'
+author: Promised Worlds Dev Team
+tags:
+  - config
+depends:
+  - name: ModuleManager
+supports:
+  - name: ParallaxContinued
+  - name: BetterTimeWarpCont
+
+install:
+  - find: PWLMP_ClientConfig
+    install_to: GameData
